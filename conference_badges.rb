@@ -12,7 +12,9 @@ def batch_badge_creator(names)
   badge_messages
 end
 
-def assign_rooms
+def assign_rooms(names)
+  names.each_with_index do |name, i|
+  end
 
 end
 
