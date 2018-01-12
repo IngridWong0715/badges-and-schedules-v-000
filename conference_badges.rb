@@ -24,5 +24,6 @@ end
 def printer(names)
   assign_rooms(names).each do |room_message|
     puts room_message
+  end
 
 end
