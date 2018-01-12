@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  badge_messages=[]
+  badge_messages = []
   names.each do |name|
     message=badge_maker(name)
     badge_messages.push(message)
