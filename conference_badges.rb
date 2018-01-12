@@ -7,12 +7,12 @@ end
 def batch_badge_creator(names)
   badge_messages = []
   names.each do |name|
-    message=badge_maker(name)
+    message=
 
-    badge_messages.push(message)
+    badge_messages.push(badge_maker(name))
 
   end
-  biding.pry
+  badge_messages
 end
 
 def assign_rooms
