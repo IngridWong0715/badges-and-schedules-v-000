@@ -10,7 +10,7 @@ def batch_badge_creator(names)
     message=badge_maker(name)
 
     badge_messages.push(message)
-    binding.pry
+
   end
   biding.pry
 end
