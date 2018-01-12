@@ -12,6 +12,7 @@ def batch_badge_creator(names)
     badge_messages.push(message)
     binding.pry
   end
+  biding.pry
 end
 
 def assign_rooms
