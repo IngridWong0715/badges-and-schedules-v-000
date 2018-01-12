@@ -15,7 +15,7 @@ end
 def assign_rooms(names)
   messages = []
   names.each_with_index do |name, i|
-    messages.push("Hello, #{name}! You'll be assigned to room #{i}!")
+    messages.push("Hello, #{name}! You'll be assigned to room #{i+1}!")
   end
   messages
 
